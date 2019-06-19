@@ -7,6 +7,7 @@ f=open(settings.main_file())
 lines=f.readlines()
 #Del_Duplicate(lines)
 
+
 class window(QtWidgets.QDialog):
     def __init__(self):
         super(window, self).__init__()
