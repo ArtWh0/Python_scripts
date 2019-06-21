@@ -1,5 +1,6 @@
 import xlwt
 
+
 stroka_xls=-1
 kolonka_xls=-1
 end='**КОНЕЦ**'
@@ -10,7 +11,7 @@ kol=0
 kol_test=0
 m=0
 rev=[]
-setting=open('D:\\Data_Python\\Transferes_reverse(new)\\settings.ini')
+setting=open('D:\\python\\Python_scripts\\Transfers_2\\Source\\settings.ini')
 setting_lines=setting.readlines()
 class settings():
     def main_file():

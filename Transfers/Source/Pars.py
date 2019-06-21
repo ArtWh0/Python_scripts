@@ -1,5 +1,6 @@
 import xlwt
 
+
 stroka_xls=-1
 kolonka_xls=-1
 end='**КОНЕЦ**'
