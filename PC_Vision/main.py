@@ -21,6 +21,7 @@ def view_bytes(fpath, delim=''):
 		print('New element '+new+' on position'+str(ret.index(up_el)))
 		ret.insert(ret.index(up_el),new)
 		new=''
+	
 	return ret
  
 
